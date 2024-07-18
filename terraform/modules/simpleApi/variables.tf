@@ -6,10 +6,6 @@ variable "lambda_name" {
   type = string
 }
 
-variable "log_group_name" {
-  type = string
-}
-
 variable "lambda_role_name" {
   type = string
 }
@@ -23,10 +19,9 @@ variable "stage_name" {
 }
 
 variable "region" {
-    type = "string"
+    type = string
 }
 
-variable "availability_zone_names" {
-  type    = list(string)
-  default = ["us-west-1a"]
+variable "ecr_repo" {
+    type = string
 }

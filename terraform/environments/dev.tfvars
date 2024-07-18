@@ -1,0 +1,7 @@
+environment = "dev"
+lambda_name = "simple-api"
+lambda_role_name = "simple-api-execution-role"
+gateway_name = "simple-api-gateway"
+stage_name = "dev"
+region = "us-east-2"
+ecr_repo = "simple-api-ecr"
